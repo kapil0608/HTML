@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset >
+            <legend>Student Details</legend>
+            <label for="firstName">Enter the First Name:</label>
+            <input type="text" placeholder="First-Name" id="firstName"><br><br>
+
+            <label for ="lastName">Enter the Last Name</label>
+            <input type="text" placeholder="Last Name" id="lastName"><br> <br>
+
+            <label for="password">Enter Password:</label>
+            <input type="password" placeholder="Password" id="password" ><br><br>
+
+
+               <!-----Radio-------->
+        
+            <strong>Qualification :</strong>
+            <label for="B.E">B.E</label>
+            <input type="radio" name="Qualification" id="B.E">
+
+            <label for="B.tech">B.tech</label>
+            <input type="radio" name="Qualification" id="B.tech">
+
+            <label for="BCA">BCA</label>
+            <input type="radio" name="Qualification" id="BCA">
+
+            <label for="BSC">BSC</label>
+            <input type="radio" name="Qualification" id="BSC"> <br><br><hr>
+
+                  <!-----Check Box------>
+
+            <strong>Select the location : </strong>
+
+            <label for="Bengalore">Bengalore</label>
+            <input type="checkbox" name="Select the location " id="Bengalore">
+
+            <label for="New Delhi">New Delhi</label>
+            <input type="checkbox" name="Select the location " id="New Delhi">
+
+            <label for="Pune">Pune</label>
+            <input type="checkbox" name="Select the location " id="Pune">
+
+            <label for="Mumbai">Mumbai</label>
+            <input type="checkbox" name="Select the location " id="Mumbai"><br><br><hr>
+
+                  <!------Drop down menu-------->
+
+            <strong>Select City :</strong>
+            <select name="" id="">
+                <option value="" hidden>----Choose Here---- </option>
+                <option value="">Bengalore</option>
+                <option value="">New Delhi</option>
+                <option value="">Pune</option>
+                <option value="">Mumbai</option>
+            </select><br><br><hr>
+
+                <!--------Data-List--------->
+
+            <label for="">Enter your prefered city :</label>
+            <input type="text" list="city">
+            <datalist id="city">
+                <option value="Bengalore"></option>
+                <option value="New Delhi"></option>
+                <option value="Pune"></option>
+                <option value="Mumbai"></option>
+            </datalist><br><br><hr>
+
+                 <!------- Text Area------->
+
+            <textarea name="" id="" placeholder="Your Feedback....."
+            cols="30" rows="20>"></textarea><br><br><hr>
+
+                  <!-----Input Submit------>
+            
+            <input type="submit" value="SUBMIT">
+
+            <input type="reset" value="RESET">
+            <br><br><hr>
+                  <!-----Button------> 
+                                     
+            <button type="submit">SUBMIT</button>
+
+            <button type="reset">RESET</button>
+
+        </fieldset>        
+
+    </form>
+    
+</body>
+</html>
