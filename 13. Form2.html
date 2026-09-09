@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset >
+            <legend>Student Details</legend>
+            <label for="firstName">Enter the First Name:</label>
+            <input type="text" placeholder="First-Name" id="firstName"><br><br>
+
+            <label for ="lastName">Enter the Last Name</label>
+            <input type="text" placeholder="Last Name" id="lastName"><br> <br>
+
+            <label for="password">Enter Password:</label>
+            <input type="password" placeholder="Password" id="password" ><br><br>
+
+
+               <!-----Radio-------->
+        
+            <strong>Qualification :</strong>
+            <label for="B.E">B.E</label>
+            <input type="radio" name="Qualification" id="B.E">
+
+            <label for="B.tech">B.tech</label>
+            <input type="radio" name="Qualification" id="B.tech">
+
+            <label for="BCA">BCA</label>
+            <input type="radio" name="Qualification" id="BCA">
+
+            <label for="BSC">BSC</label>
+            <input type="radio" name="Qualification" id="BSC"> <br><br><hr>
+
+                  <!-----Check Box------>
+
+            <strong>Select the location : </strong>
+
+            <label for="Bengalore">Bengalore</label>
+            <input type="checkbox" name="Select the location " id="Bengalore">
+
+            <label for="New Delhi">New Delhi</label>
+            <input type="checkbox" name="Select the location " id="New Delhi">
+
+            <label for="Pune">Pune</label>
+            <input type="checkbox" name="Select the location " id="Pune">
+
+            <label for="Mumbai">Mumbai</label>
+            <input type="checkbox" name="Select the location " id="Mumbai"><br><br><hr>
+
+                  <!------Drop down menu-------->
+
+            <strong>Select City :</strong>
+            <select name="" id="">
+                <option value="" hidden>----Choose Here---- </option>
+                <option value="">Bengalore</option>
+                <option value="">New Delhi</option>
+                <option value="">Pune</option>
+                <option value="">Mumbai</option>
+            </select><br><br><hr>
+
+                <!--------Data-List--------->
+
+            <label for="">Enter your prefered city :</label>
+            <input type="text" list="city">
+            <datalist id="city">
+                <option value="Bengalore"></option>
+                <option value="New Delhi"></option>
+                <option value="Pune"></option>
+                <option value="Mumbai"></option>
+            </datalist><br><br><hr>
+
+                 <!------- Text Area------->
+
+            <textarea name="" id="" placeholder="Your Feedback....."
+            cols="30" rows="20>"></textarea><br><br><hr>
+
+                  <!-----Input Submit------>
+            
+            <input type="submit" value="SUBMIT">
+
+            <input type="reset" value="RESET">
+            <br><br><hr>
+                  <!-----Button------> 
+                  
+            <button type="submit">SUBMIT</button>
+
+            <button type="reset">RESET</button>
+
+        </fieldset>        
+        <br><br><hr color="blue"><br>
+
+        <fieldset>
+            <label for="firstName">Enter the First Name :</label>
+            <input type="text" placeholder="First-Name" id="firstName"><br><br>
+
+            <label for="lastName">Enter the Last Name :</label>
+            <input type="text" placeholder="Last-Name" id="lastName"><br><br>
+
+            <label for="password"> Enter Password :</label>
+            <input type="password" placeholder="Enter Password" id="password"><br><br>
+
+            <label for="url"> Url :</label>
+            <input type="url" placeholder="https://www.google.com" id="url"><br><br>
+
+            <label for="date">Date :</label>
+            <input type="date" id="date"><br><br>
+
+            <label for="tel">Phone Number :</label>
+            <input type="tel" placeholder="phone no." id="tel"><br><br>
+
+            <label for="number"> Number :</label>
+            <input type="number" placeholder="Number" id="number"><br><br>
+
+            <label for="range"> Range :</label>
+            <input type="range" id="range"><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" placeholder="Email" id="email"><br><br>
+
+            <label for="image">Image :</label>
+            <input type="image" placeholder="image" id="image"><br><br>
+
+            <label for="color">Color :</label>
+            <input type="color" placeholder="color" id="color"><br><br>
+
+            <label for="file"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
+  <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2z"/>
+</svg> :</label>
+            <input type="file" placeholder="file" id="file"><br><br>
+
+            <label for="search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg> :</label>
+            <input type="search" placeholder="search" id="search"><br><br>
+
+        
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
